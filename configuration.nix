@@ -79,6 +79,15 @@
     git
   ];
 
+  # Environment variables for Hyprland inside VMs
+  environment.sessionVariables = {
+    # Fixes cursor disappearing or black screens under Wayland compositors in VMs
+    WLR_NO_HARDWARE_CURSORS = "1";
+    # Fallback renderer option for WLROOTS
+    WLR_RENDERER_ALLOW_SOFTWARE = "1";
+  };
+
+
   # SSH & Firewall
   services.openssh.enable = true;
 
