@@ -68,7 +68,7 @@
   # Installed Packages
   environment.systemPackages = with pkgs; [
     kitty          # Terminal emulator
-    rofi-wayland   # App menu launcher
+    rofi           # App menu launcher
     waybar         # Top bar
     dunst          # Notifications
     swww           # Wallpaper manager
