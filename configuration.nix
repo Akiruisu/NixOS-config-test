@@ -87,8 +87,7 @@
     WLR_RENDERER_ALLOW_SOFTWARE = "1";
   };
 
-
-  # SSH & Firewall
+  # SSH
   services.openssh.enable = true;
 
   # System Release Version
